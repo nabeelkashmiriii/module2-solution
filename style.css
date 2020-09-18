@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    width: 100%;
+}
+.parent{
+    width: 100%;
+    
+}
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.boxes{
+    border: 2px solid black;
+   width: 33.33%;
+    margin: 5px;
+    padding: 20px;
+    position: relative;
+    background-color: yellow;
+    
+   
+    
+   
+
+}
+.heading{
+position: absolute;
+right: 0;
+top: 0;
+padding: 0 40px;
+border: 2px solid red;
+background-color: yellowgreen;
+
+
+
+}
+p{
+    margin-top: 10px;
+}
+
+@media (min-width: 992px) {
+
+#box1{
+    float: left;
+    width: 30%;
+}
+#box2{
+    float: left;
+    width: 30%;
+}
+#box3{
+    float: left;
+    width: 30%;
+}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #box1{
+        float: left;
+        width: 40%;
+    }
+    #box2{
+        float: left;
+        width: 40%;
+    }
+    #box3{
+        
+        clear: both;
+        width: 81%;
+    }
+  
+
+
+}
+
+@media (max-width: 767px) {
+    #box1{
+        
+        width: 40%;
+    }
+    #box2{
+       
+        width: 40%;
+    }
+    #box3{
+       
+        width: 40%;
+        
+    }
+
+  .parent{
+      margin-left: 190px;
+  }
+}
